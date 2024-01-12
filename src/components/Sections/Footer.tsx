@@ -19,16 +19,11 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
-      <a
-        className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
-        href="https://reactresume.com">
-        <BoltIcon className="h-5 w-5 text-yellow" />
-        <span>
-          Provided by <span className="text-white">React</span>
-          <span className="italic text-yellow">Resume</span>
-        </span>
-      </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Vignesh Mohanarajan</span>
+      <span className="text-sm text-neutral-700">Landing Photo by <a href="https://unsplash.com/@spencerecclesjones?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Spencer Eccles_Jones</a> on <a href="https://unsplash.com/photos/a-river-with-grass-and-trees-around-it-p3SyXlQ7FHU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </span>
+      <span className="text-sm text-neutral-700">Testimonial Photo by <a href="https://unsplash.com/@enginakyurt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">engin akyurt</a> on <a href="https://unsplash.com/photos/blue-and-black-abstract-painting-Hlkuojv_P6I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </span>
     </div>
   </div>
 ));
