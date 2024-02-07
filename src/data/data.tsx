@@ -207,6 +207,11 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Chris Phippen',
+      text: 'Over the last year or so I have had the absolute pleasure of working with Viggy. He is intelligent, quick to learn, and gregarious. Moreover, he cultivates reputation for being the guy that gets things done. I worked with Viggy on numerous complex software and data engineering projects and can say with absolute confidence that his fastidiousness and natural comedic wit make him a great person to have on your team.',
+      image: 'https://media.licdn.com/dms/image/D4E03AQG2wlc7QCwRHQ/profile-displayphoto-shrink_800_800/0/1689326626175?e=1712793600&v=beta&t=qQa_6RIpkBNCOu8MdTj8YLWOSb-hTuAjCBwPoNckDdU',
+    },
+    {
       name: 'Ellie Kelemen',
       text: 'I had the privilege of working with Vignesh at Hatless Studios for a year. We worked closely on many projects where Vignesh performed with consistent excellence, always going above and beyond to implement elegant solutions, make life easy for front-end developers, and solve the hard issues. He\'s an amazing asset to any software development team.',
       image: 'https://avatars.githubusercontent.com/u/37041249?v=4',
